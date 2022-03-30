@@ -113,8 +113,8 @@ ORDER BY 1 DESC
 
 
 	
--- Data Cleaning----
------ Update the incorrect data from table 
+------- Data Cleaning-------------
+-- Update the incorrect data from table 
 UPDATE netflix_countries
 SET country = CASE WHEN RIGHT(country,1) !~* '^.*[A-Z]$' THEN left(country,length(country)-1)
 	ELSE country
@@ -148,15 +148,14 @@ ORDER BY 2 DESC, 3 DESC
 -- View
 DROP VIEW sheet1 -- drop view first
 CREATE OR REPLACE VIEW sheet1 AS
---- "CREATE OR REPLACE" equals to "CREATE IF NOT EXISTS"
 	WITH foo AS (
-	SELECT 
+	    SELECT 
 		DISTINCT(CASE WHEN country LIKE '%Germany' THEN 'Germany'
 			ELSE country
 			END) AS country, 
 			release_year, CAST(COUNT(t.show_id) as numeric) movies, SUM(COUNT(t.show_id)) 
 			OVER(PARTITION BY release_year) as annual_total_movies
-	FROM 
+	    FROM 
 			netflix_countries as c
 		JOIN 
 				netflix_title as t
