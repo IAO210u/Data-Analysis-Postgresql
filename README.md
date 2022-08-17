@@ -3,11 +3,7 @@
 **项目网站：[Tableau](https://public.tableau.com/app/profile/pilchen.fu/viz/PortfolioProject_16483507767800/1_1?publish=yes)**  
 **数据集来源:[kaggle](https://public.tableau.com/s/sites/default/files/media/netflix_titles.xlsx)**  
 *影片评级采用[netflix美区分级制度](https://help.netflix.com/en/node/2064/us)*
-<br>
-<br>
 
-记录下自己第一次尝试做数据分析，做了exploratory analysis。有很多不成熟的地方，信息的排版和突出方面没有体现出来。但是也收获了很多，包括如何利用null和正则表达式找出不正确的和多余的数据，以及绕过嵌套聚合函数获得需要的数据等知识。
-等读完knaflic的《storytelling with data》和O'Reilly的《PostgreSQL：Up and Running》再学着做一个Explanatory Analysis。
 
 <br>
 <br>
@@ -24,9 +20,13 @@
 <img src="https://user-images.githubusercontent.com/60880301/185048600-d9ef13c9-6bcf-4130-b337-b034804143d6.png" width="600px"/>  
 <br>  
 
-*Tableau中完成的图表*  
+*Tableau的图表*  
 <img src="https://user-images.githubusercontent.com/60880301/185048612-68d4e555-3ca3-405e-8eec-48725162ef49.png" width="600px"/>
 <img src="https://user-images.githubusercontent.com/60880301/185048592-0a644693-6417-451e-bde3-ce402d243d09.png" width="600px"/>  
 
 
+<br>
+<br>
 
+记录下自己第一次尝试做数据分析，做了exploratory analysis。有很多不成熟的地方，信息的排版和突出方面没有体现出来。但是也收获了很多，包括如何利用null和正则表达式找出不正确的和多余的数据，以及绕过嵌套聚合函数获得需要的数据等知识。
+等读完knaflic的《storytelling with data》和O'Reilly的《PostgreSQL：Up and Running》再学着做一个Explanatory Analysis。
