@@ -28,5 +28,5 @@
 <br>
 <br>
 
-记录下自己第一次尝试做数据分析，做了exploratory analysis。有很多不成熟的地方，信息的排版和突出方面没有体现出来。但是也收获了很多，包括如何利用null和正则表达式找出不正确的和多余的数据，以及绕过嵌套聚合函数获得需要的数据等知识。
+记录下自己第一次尝试做数据分析，做了Exploratory analysis。有很多不成熟的地方，信息的排版和突出方面没有体现出来。但是也收获了很多，包括如何利用null和正则表达式找出不正确的和多余的数据，以及绕过嵌套聚合函数获得需要的数据等知识。
 等读完knaflic的《storytelling with data》和O'Reilly的《PostgreSQL：Up and Running》再学着做一个Explanatory Analysis。
