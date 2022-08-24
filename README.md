@@ -23,6 +23,7 @@
 *Tableau的图表*  
 <img src="https://user-images.githubusercontent.com/60880301/185048612-68d4e555-3ca3-405e-8eec-48725162ef49.png" width="600px"/>
 <img src="https://user-images.githubusercontent.com/60880301/185048592-0a644693-6417-451e-bde3-ce402d243d09.png" width="600px"/>  
+<img src="https://user-images.githubusercontent.com/60880301/186329040-32ed7d6c-f858-45e1-b4ce-d3c36c81d379.png" width="600px"/> 
 
 
 <br>
